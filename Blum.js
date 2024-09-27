@@ -1,15 +1,17 @@
 // ==UserScript==
-// @name         Blum Autoclicker
+// @name         Hamster Kombat Web
 // @namespace    http://tampermonkey.net/
-// @description  Автокликер Блюм
-// @version      1.0
-// @author       0xJohn
-// @match        https://telegram.blum.codes/*
+// @version      1.7
+// @description  Запуск Hamster Kombat в браузере
+// @author       mudachyo
+// @match        *://*.hamsterkombat.io/*
+// @match        *://*.hamsterkombatgame.io/*
+// @match        https://web.telegram.org/*/*
 // @grant        none
-// @icon         https://cdn.prod.website-files.com/65b6a1a4a0e2af577bccce96/65ba99c1616e21b24009b86c_blum-256.png
-// @downloadURL  https://github.com/0x-John/Blum-Click/raw/main/Blum Click.js
-// @updateURL    https://github.com/0x-John/Blum-Click/raw/main/Blum Click.js
-// @homepage     https://github.com/0x-John/Blum-Click
+// @icon         https://hamsterkombatgame.io/images/icons/hamster-coin.png
+// @downloadURL  https://github.com/mudachyo/Hamster-Kombat/raw/main/hamster-kombat.user.js
+// @updateURL    https://github.com/mudachyo/Hamster-Kombat/raw/main/hamster-kombat.user.js
+// @homepage     https://github.com/mudachyo/Hamster-Kombat
 // ==/UserScript==
 
 let GAME_SETTINGS = {
